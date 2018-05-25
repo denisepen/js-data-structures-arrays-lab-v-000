@@ -22,6 +22,7 @@ function removeLastDriver(){
   console.log(newDrivers) ;
 }
 
+removeLastDriver()
 // last function
 function removeFirstDriver(){
   newDrivers = drivers.slice(1);
