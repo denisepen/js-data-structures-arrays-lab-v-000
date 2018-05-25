@@ -17,6 +17,10 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift();
 }
 
+function appendDriver(name){
+  newDrivers = [...drivers, "Izzie" ]
+}
+
 function removeLastDriver(){
   newDrivers = drivers.slice(0,2);
   return newDrivers ;
