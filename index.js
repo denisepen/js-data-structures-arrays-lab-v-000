@@ -18,11 +18,11 @@ function destructivelyRemoveFirstDriver(){
 }
 
 function removeLastDriver(){
-  newDrivers = drivers.slice(-1);
-  console.log(newDrivers) ;
+  newDrivers = drivers.slice(0,2);
+  return newDrivers ;
 }
 
-removeLastDriver()
+
 // last function
 function removeFirstDriver(){
   newDrivers = drivers.slice(1);
