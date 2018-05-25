@@ -23,7 +23,8 @@ function appendDriver(name){
 }
 
 function prependDriver(name){
-const NewDrivers = [name, ...drivers]
+const NewDrivers = [name, ...drivers];
+return newDrivers;
 }
 
 function removeLastDriver(){
